@@ -1,0 +1,47 @@
+.headcontent{
+    background-image: url(../images/head.png);
+    // width: 100%;
+    // height: 1123px;
+    // height: 1123px;
+    // height: 93vh;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head{
+    &__title{
+        padding: 36px 0 31px 0;
+        p{
+            font-size: 58px;
+            font-weight: 300;
+            line-height: 44.43px;
+            text-transform: uppercase;
+            color: #666666;
+            letter-spacing: 0.07px;
+        }
+    }
+    &__logo{
+        margin-left: 4px;
+    }
+    &__description{
+        padding: 54px 909px 45px 0;
+        p{
+            font-size: 21px;
+            font-weight: 300;
+            line-height: 33.33px;
+            color: #000000;
+            letter-spacing: 0.06px;
+        }
+    }
+    &__link{
+        a{
+            font-size: 21px;
+            font-weight: 300;
+            line-height: 33.33px;
+            color: #ff3399;
+            letter-spacing: 0.06px;
+            text-decoration: underline;
+        }
+    }
+}

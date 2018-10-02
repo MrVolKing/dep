@@ -1,0 +1,51 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: fixed;
+    z-index: 100000;
+    bottom: 0;
+    width: 1280px;
+    &__left{
+        display: flex;
+    }
+    &__button{
+        width: 299px;
+        height: 55px;
+        background-color: #ff3399;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span{
+            font-size: 17px;
+            font-weight: 300;
+            color: $white;
+            text-transform: uppercase;
+        }
+        &_color{
+            background-color: #ffd9ff;
+            span{
+                color: #ff3399;
+            }
+        }
+    }
+    &__right{
+        display: flex;
+        padding-bottom: 48px;
+    }
+    &__arrow{
+        margin-right: 22px;
+    }
+    &__blocknumbers{
+        display: flex;
+        align-items: center;
+        a{
+            margin-left: 8px;
+            color: #000000;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #ff3399;
+        }
+    }
+}

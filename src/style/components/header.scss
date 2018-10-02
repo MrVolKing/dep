@@ -1,0 +1,53 @@
+.header{
+    // background-color: gainsboro;
+    padding: 11px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    &__logo{
+        margin-right: 53px;
+    }
+    &__center{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        .menu{
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+            &__paragraph{
+                a{
+                    text-decoration: none;
+                    font-size: 19px;
+                    font-weight: 300;
+                    line-height: 32.93px;
+                    color: #080808;
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    &__right{
+        display: flex;
+        align-items: center;
+        .inst{
+            margin-left: 92px;
+        }
+        .vk{
+            margin-left: 18px;
+        }
+        .fb{
+            margin-left: 20px;
+        }
+        .number{
+            margin-left: 63px;
+            a{
+                font-size: 17px;
+                font-weight: 300;
+                color: #080808;
+                text-decoration: none;
+            }
+        }
+    }
+}
