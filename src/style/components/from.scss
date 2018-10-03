@@ -1,11 +1,15 @@
 .fromcontent{
-    height: 100vh;
+    // height: 100vh;
     background-color: #f3efeb;
 }
 
 .from{
+    // height: 1122px;
+    // height: 57.71vw;
+    padding-bottom: 228px;
     &__title{
         padding: 33px 0 57px 0;
+        
         p{
             font-size: 58px;
             font-weight: 300;

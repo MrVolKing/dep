@@ -1,7 +1,7 @@
 .partnerscontent{
     // margin-top: 82px;
     background-image: url(../images/partnersbg1.png);
-    height: 100vh;
+    // height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -16,6 +16,9 @@
 
 .partners{
     padding-top: 51px;
+    padding-bottom: 169px;
+    // height: 1122px;
+    // height: 57.71vw;
     &__title  {
         margin-bottom: 23px;
         p{

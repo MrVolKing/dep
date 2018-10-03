@@ -1,6 +1,6 @@
 .headcontent{
     background-image: url(../images/head.png);
-    height: 100vh;
+    // height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 82px;
@@ -12,6 +12,9 @@
 }
 
 .head{
+    padding-bottom: 479px;
+    // height: 1122px;
+    // height: 57.71vw;
     &__title{
         padding: 36px 0 31px 0;
         p{

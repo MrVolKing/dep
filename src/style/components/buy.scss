@@ -1,13 +1,16 @@
 .buycontent{
     // margin-top: 82px;
     background-image: url(../images/buybg.png);
-    height: 100vh;
+    // height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .buy{
     padding-top: 29px;
+    padding-bottom: 289px;
+    // height: 1122px;
+    // height: 57.71vw;
     &__title{
         margin-bottom: 57px;
         p{

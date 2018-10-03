@@ -1,14 +1,18 @@
 .servicecontent{
     // margin-top: 82px;
     background-image: url(../images/servicebg.png);
-    height: 100vh;
-    background-size: cover;
+    // height: 100vh;
+    // background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
     background-position-y: -82px;
 }
 
 .service{
     padding-top: 33px;
+    padding-bottom:115px;
+    // height: 1122px;
+    // height: 57.71vw;
     &__title{
         margin-bottom: 57px;
         P{

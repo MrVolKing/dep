@@ -39,7 +39,7 @@
 
     var bgpo4emu = document.getElementById('bgpo4emu');
     var i = 0;
-    var classmass = ['bgpo4emu', 'bgpo4emu2', 'bgpo4emu3'];
+    var classmass = ['bgpo4emu1', 'bgpo4emu2', 'bgpo4emu3'];
     function func() {
         bgpo4emu.classList.add(classmass[i]);
         i++;

@@ -1,12 +1,14 @@
 .po4emucontent{
     // margin-top: 82px;
-    height: 100vh;
+    // height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .po4emu{
     padding: 40px 0 0 0;
+    padding-bottom: 788px;
+    // height: 57.71vw;
     &__title{
         p{
             margin-bottom: 61px;
@@ -53,4 +55,8 @@
 
 .bgpo4emu2{
     background-image: url(../images/po4emu2.png);
+}
+
+.bgpo4emu2{
+    background-image: url(../images/po4emu3.png);
 }
