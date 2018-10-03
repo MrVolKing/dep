@@ -3,7 +3,7 @@
     // var hidden = document.getElementById('hidden');
     // var shadow = document.getElementById('shadow');
 
-    // textwrap.addEventListener('click', function () { 
+    // textwrap.addEventListener('click', function () {
     //     hidden.classList.toggle('hidden');
     //     shadow.classList.toggle('shadownone');
     // });
@@ -22,9 +22,9 @@
     // });
 
 
-    var button = document.getElementById('button');
-    var popap = document.getElementById('popap');
+    // var button = document.getElementById('button');
+    // var popap = document.getElementById('popap');
 
-    button.addEventListener('click', function () {
-        popap.classList.add('popapvisibl');
-    });
+    // button.addEventListener('click', function () {
+    //     popap.classList.add('popapvisibl');
+    // });

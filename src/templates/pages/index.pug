@@ -4,39 +4,198 @@ block varibles
     - var title = "Heade"
 
 block content
-   
-    .content     
+
+    .content
         include ../common/header.pug
-        
-        section.headcontent
-            .wrapper
-                .head
-                    .head__title
-                        p Джейлинг— Эпиляция будущего
-                    .head__logo
-                        img(src="./images/headlogo.png", alt="")
-                    .head__description
-                        p Джейлинг этопиляция будущего, метод избавления от волос на теле, без боли. В его структуру входит тот самый гель, который в сочетании с другими компонентами, дарит радость. Эпиляция - это не то что вы привыкли терпеть, Джейлинг,  эпиляция будущего, без стресса.
-                    .head__link
-                        a(href="#") Почему не больно и безопасно
-                    
+
+        #fullpage
+
+            section.headcontent.section
+                .wrapper
+                    .head
+                        .head__title
+                            p Джейлинг— Эпиляция будущего
+                        .head__logo
+                            img(src="./images/headlogo.png", alt="")
+                        .head__description
+                            p Джейлинг этопиляция будущего, метод избавления от волос на теле, без боли. В его структуру входит тот самый гель, который в сочетании с другими компонентами, дарит радость. Эпиляция - это не то что вы привыкли терпеть, Джейлинг,  эпиляция будущего, без стресса.
+                        .head__link
+                            a(href="#") Почему не больно и безопасно
+
+            section.slidescontent.section
+                .slides
+                    .swiper-container
+                        .swiper-wrapper
+                            .swiper-slide.one
+                                .wrapper
+                                    .slides__title
+                                        p как все происходит
+                                    .slides__text
+                                        p первое
+                                    .slides__title2
+                                        p Очищающий лосьон
+                                    .slides__description
+                                        p убирает загрязнение и подготавливает кожу
+                            .swiper-slide.twoo
+                                .wrapper
+                                    .slides__title
+                                        p как все происходит
+                                    .slides__text
+                                        p ВТОРОЕ
+                                    .slides__title2
+                                        p Гель для эпиляции
+                                    .slides__description
+                                        p Основное действо
+                            .swiper-slide.three
+                                .wrapper
+                                    .slides__title
+                                        p как все происходит
+                                    .slides__text
+                                        p ТРЕТЬЕ
+                                    .slides__title2
+                                        p Гель после эпиляции
+                                    .slides__description
+                                        p Успокаивающий эффект
+                        .swiper-button-next
+                        .swiper-button-prev
+
+            section.po4emucontent.section
+                .wrapper
+                    .po4emu
+                        .po4emu__title
+                            p почему не больно и безопасно
+                        .po4emu__contenttext
+                            .po4emu__text
+                                p Гель проникает в волосяную луковицу и разрушает связь волоса с волосяной сумкой и нервом. После удаления волоса активное действующее вещество в геле подавляет рост нового волоса.
+                            .po4emu__text
+                                p В отличии от лазерной эпиляции, джейлинг работает с белыми, седыми,  обесцвечеными волосами и татуировками. Исключена возможность получения химических и термических ожегов. Нет высокоэнергетического облучения = нет риска раковых заболеваний.
+                        .po4emu__link
+                            a(href="#") Преимущества джейлинга
+
+            section.advantagescontent.section
+                .wrapper
+                    .advantages
+                        .advantages__title
+                            p преимущества
+                        .advantages__blockblocks
+                            .blockitem
+                                img(src="./images/advantages1.png", alt="")
+                                span Эпиляция без боли
+                            .blockitem
+                                img(src="./images/advantages2.png", alt="")
+                                span Сокращение повторного роста волос до 70% как при лазерной эпиляции
+                            .blockitem
+                                img(src="./images/advantages3.png", alt="")
+                                span Не нужно дорогостоящее и громоздкое оборудование
+                        .advantages__blockblocks.advantages__blockblocks_fl
+                            .blockitem
+                                img(src="./images/advantages4.png", alt="")
+                                span Нет угрозы термических и химических ожегов
+                            .blockitem
+                                img(src="./images/advantages5.png", alt="")
+                                span Увлажнение и уход за кожей - часть стандартной процедуры
+
+            section.servicecontent.section
+                .wrapper
+                    .service
+                        .service__title
+                            p Джейлинг- сервис
+                        .service__text
+                            p Джейлинг сервис - дистрибьютор продукции для салонов и косметологов. Наши заказчики, кроме продукции, получают от нас поток клиентов и маркетинговые инструмент для их удержания.
+                        .service__blockblocks
+                            .blockitem
+                                img(src="./images/advantages1.png", alt="")
+                                span Обучение
+                            .blockitem
+                                img(src="./images/advantages2.png", alt="")
+                                span Поставка. Отгрузка транспортными компаниями и курьерскими службами.
+                            .blockitem
+                                img(src="./images/advantages3.png", alt="")
+                                span Рекламная поддержка Instagram, FB, VK. Video-PR
+                            .blockitem
+                                img(src="./images/advantages4.png", alt="")
+                                span Привлечение клиентов. Интерактивная карта и список партнеров направляющих клиентов в Ваш салон.
+                            .blockitem
+                                img(src="./images/advantages5.png", alt="")
+                                span Удержание клиентов. Мобильное приложение и маркетинговые инструменты.
+                        .service__link
+                            a(href="#") Предложение партнерам
+                        .service__qrblock
+                            .left
+                                img(src="./images/gr.png", alt="")
+                            .right
+                                span Скачай в App Store
+                                a(href="https://itunes.apple.com/us/app/uds-game/id954809132?mt=8)") https://itunes.apple.com/us/app/uds-game/id954809132?mt=8)
+                                span Google Play
+                                a(href="https://play.google.com/store/apps/details?id=com.setinbox.game&hl=ru) ") https://play.google.com/store/apps/details?id=com.setinbox.game&hl=ru)
+                                p
+                                    | мобильное приложение UDS Game. Отсканируй или введи код twev5679 image.png Получи приветственные
+                                    span
+                                        | 500 баллов
+                                    | на счет
+
+            section.buycontent.section
+                .wrapper
+                    .buy
+                        .buy__title
+                            p ГДЕ КУПИТЬ джейлинг
+                        .buy__list
+                            .paragraph
+                                p Расходные материалы продаются только Партнерам (салонам и индивидуальным мастерам) прошедшим бесплатное обучение.
+                            .paragraph
+                                p Обучение проводится на базе косметологического кабинета обучаемого партнера.
+                            .paragraph
+                                p Обучение бесплатно и занимает 5 часов включая теоретическую лекцию и практические занятия.
+                            .paragraph
+                                p Обучаемый должен предоставить 2х моделей для практических занятий.
+                            .paragraph
+                                p Обучаемый должен выкупить стартовый набор для JLing стоимостью 15 тыс. руб.
+                            .paragraph
+                                p Минимальный набор расходных материалов стоит 7500 руб.
+                            .paragraph
+                                p Скидки предоставляются по программе лояльности в мобильном приложении.
+                        .service__qrblock
+                            .left
+                                img(src="./images/gr.png", alt="")
+                            .right
+                                span Скачай в App Store
+                                a(href="https://itunes.apple.com/us/app/uds-game/id954809132?mt=8)") https://itunes.apple.com/us/app/uds-game/id954809132?mt=8)
+                                span Google Play
+                                a(href="https://play.google.com/store/apps/details?id=com.setinbox.game&hl=ru) ") https://play.google.com/store/apps/details?id=com.setinbox.game&hl=ru)
+                                p
+                                    | мобильное приложение UDS Game. Отсканируй или введи код twev5679 image.png Получи приветственные
+                                    span
+                                        | 500 баллов
+                                    | на счет
+                        .buy__link
+                            a(href="#") Пройти процедуру эпиляции JLing можно у наших партнеров
+                        .buy__bottomtext
+                            .left
+                                span Запись на обучение:
+                                span Т: +7 495 230-10-33
+                                span E: hello@jling.ru
+                            .right
+                                span #давайбезболи
+                                span #эпиляция будущего
+                                span #джейлинг
+
         include ../common/footer.pug
         include ../common/popap.pug
 
-                    
-
-
-                    
 
 
 
 
-        
-
-        
-        
 
 
 
 
-        
+
+
+
+
+
+
+
+
+
