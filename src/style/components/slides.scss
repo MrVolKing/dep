@@ -1,6 +1,6 @@
 .swiper-button-prev{
     width: 102px;
-    height: 8px;
+    height: 40px;
     position: absolute;
     z-index: 1000000;
     // top: 653px;
@@ -10,11 +10,12 @@
     transform: translateY(-50%);
     background-image: url(../images/prev.png);
     background-repeat: no-repeat;
+    background-position: center;
 } 
 
 .swiper-button-next{
     width: 102px;
-    height: 8px;
+    height: 40px;
     position: absolute;
     // top: 653px;
     // right: 289px;
@@ -24,10 +25,11 @@
     z-index: 1000000;
     background-image: url(../images/next.png);
     background-repeat: no-repeat;
+    background-position: center;
 } 
 
 .slidescontent{
-    margin-top: 82px;
+    // margin-top: 82px;
 }
 
 .slides{

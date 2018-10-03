@@ -1,5 +1,5 @@
 .partnerscontent{
-    margin-top: 82px;
+    // margin-top: 82px;
     background-image: url(../images/partnersbg1.png);
     height: 100vh;
     background-size: cover;
@@ -117,4 +117,31 @@
             letter-spacing: 0.04px;
         }
     }
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+.colorbutton1{
+    background-color: $white !important;
+}
+
+.colorbutton2{
+    background-color: #ff3399 !important;
+}
+
+.textcolor1{
+    color: #666666 !important;
+}
+
+.textcolor2{
+    color: $white !important;
+}
+
+.bg2{
+    background-image: url(../images/partnersbg2.png) !important;
 }

@@ -20,6 +20,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        cursor: pointer;
         span{
             font-size: 17px;
             font-weight: 300;
@@ -35,7 +36,9 @@
     }
     &__right{
         display: flex;
-        padding-bottom: 48px;
+        position: absolute;
+        right: 0;
+        bottom: 48px;
     }
     &__arrow{
         margin-right: 22px;

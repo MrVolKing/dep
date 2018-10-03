@@ -43,10 +43,10 @@
               <p>ПАРТНЕРСТВО</p>
             </div>
             <div class="partners__blockbutton">
-              <div class="button1"> <a href="./partner.html"> <span>Предложение для салонов</span></a></div>
-              <div class="button2"><a href="./partner2.html"><span>Предложение для индивидуальных мастеров</span></a></div>
+              <div class="button1" id="button1"><a href="./partner.html"> <span>Предложение для салонов</span></a></div>
+              <div class="button2" id="button2"><a href="./partner2.html"><span>Предложение для индивидуальных мастеров</span></a></div>
             </div>
-            <div class="partners__list">   
+            <div class="partners__list" id="list1">  
               <div class="paragraph">
                 <p>Обучение в Вашем салоне в удобное время</p>
               </div>
@@ -58,6 +58,23 @@
               </div>
               <div class="paragraph">
                 <p>Мобильное приложение для управления<br>персоналом и взаимоотношениями с<br>клиентами</p>
+              </div>
+              <div class="paragraph">
+                <p>Бонусная система</p>
+              </div>
+            </div>
+            <div class="partners__list" id="list2">
+              <div class="paragraph">
+                <p>Обучение на базе производителя</p>
+              </div>
+              <div class="paragraph">
+                <p>Гибкая ценовая политика с накопительными скидками</p>
+              </div>
+              <div class="paragraph">
+                <p>Рекламные материалы для продвижения в соцсетях</p>
+              </div>
+              <div class="paragraph">
+                <p>Мобильное приложение</p>
               </div>
               <div class="paragraph">
                 <p>Бонусная система</p>
@@ -84,7 +101,7 @@
             </div>
             <div class="footer__right">
               <div class="footer__arrow"> <img src="./images/arrowdown.png" alt=""></div>
-              <div class="footer__blocknumbers"><a href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a></div>
+              <div class="footer__blocknumbers"><a href="#firstPage">1</a><a href="#secondPage">2</a><a href="#thirdPage">3</a><a href="#fourthPage">4</a><a href="#fifthPage">5</a><a href="#sixthPage">6</a><a href="#seventhPage">7</a><a href="#eighth">8</a></div>
             </div>
           </div>
         </div>
@@ -113,7 +130,7 @@
           new fullpage('#fullpage', {
               licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
               scrollOverflow: true,
-              anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage'],
+              anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'eighth'],
           });
       });
     </script>
