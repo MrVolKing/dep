@@ -1,7 +1,7 @@
 extends ../template
 
 block varibles
-    - var title = "Slides"
+    - var title = "Why"
 
 block content
    
@@ -9,39 +9,19 @@ block content
         include ../common/header.pug
 
 
-        section
-            .po4emu
-                .swiper-container
-                    .swiper-wrapper 
-                        .swiper-slide.one
-                            .wrapper
-                                .slides__title
-                                    p как все происходит
-                                .slides__text
-                                    p первое
-                                .slides__title2
-                                    p Очищающий лосьон
-                                .slides__description   
-                                    p убирает загрязнение и подготавливает кожу
-                        .swiper-slide.twoo
-                            .wrapper
-                                .slides__title
-                                    p как все происходит
-                                .slides__text
-                                    p первое
-                                .slides__title2
-                                    p Очищающий лосьон
-                                .slides__description   
-                                    p убирает загрязнение и подготавливает кожу
-                        .swiper-slide.three
-                            .wrapper
-                                .slides__title
-                                    p как все происходит
-                                .slides__text
-                                    p первое
-                                .slides__title2
-                                    p Очищающий лосьон
-                                .slides__description   
-                                    p убирает загрязнение и подготавливает кожу
+        section.po4emucontent
+            .wrapper
+                .po4emu
+                    .po4emu__title
+                        p почему не больно и безопасно
+                    .po4emu__contenttext
+                        .po4emu__text
+                            p Гель проникает в волосяную луковицу и разрушает связь волоса с волосяной сумкой и нервом. После удаления волоса активное действующее вещество в геле подавляет рост нового волоса.
+                        .po4emu__text  
+                            p В отличии от лазерной эпиляции, джейлинг работает с белыми, седыми,  обесцвечеными волосами и татуировками. Исключена возможность получения химических и термических ожегов. Нет высокоэнергетического облучения = нет риска раковых заболеваний.
+                    .po4emu__link
+                        a(href="#") Преимущества джейлинга
+         
 
         include ../common/footer.pug
+        include ../common/popap.pug

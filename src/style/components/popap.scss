@@ -1,0 +1,41 @@
+.wrapper{
+    position: relative;
+}
+
+.popap{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    // left: 0;
+    z-index: 10000000000000000000000000000;
+    width: 615px;
+    height: 254px;
+    background-color: #cccccc;
+    .form{
+        padding: 39px 0 0 30px;
+        input{
+            margin-bottom: 5px;
+            padding-left: 11px;
+            width: 555px;
+            height: 36px;
+            border: none;
+        }
+        button{
+            width: 299px;
+            height: 55px;
+            border: none;
+            background-color: #ff3399;
+            span{
+                font-size: 17px;
+                font-weight: 300;
+                line-height: 33.33px;
+                color: $white;
+                letter-spacing: 0.51px;
+            }
+        }
+    }
+}
+
+.popapvisibl{
+    display: block;
+}

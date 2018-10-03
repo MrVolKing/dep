@@ -1,3 +1,11 @@
+.hoadercontent{
+    position: fixed;
+    top: 0;
+    background-color: $white;
+    width: 100vw;
+    z-index: 100000000000000;
+}
+
 .header{
     // background-color: gainsboro;
     padding: 11px 0 15px 0;

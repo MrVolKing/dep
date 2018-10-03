@@ -1,0 +1,35 @@
+extends ../template
+
+block varibles
+    - var title = "Advantages"
+
+block content
+   
+    .content     
+        include ../common/header.pug
+
+        section.advantagescontent
+            .wrapper
+                .advantages
+                    .advantages__title  
+                        p преимущества
+                    .advantages__blockblocks
+                        .blockitem      
+                            img(src="./images/advantages1.png", alt="")
+                            span Эпиляция без боли
+                        .blockitem      
+                            img(src="./images/advantages2.png", alt="")
+                            span Сокращение повторного роста волос до 70% как при лазерной эпиляции
+                        .blockitem      
+                            img(src="./images/advantages3.png", alt="")
+                            span Не нужно дорогостоящее и громоздкое оборудование
+                    .advantages__blockblocks.advantages__blockblocks_fl
+                        .blockitem      
+                            img(src="./images/advantages4.png", alt="")
+                            span Нет угрозы термических и химических ожегов
+                        .blockitem      
+                            img(src="./images/advantages5.png", alt="")
+                            span Увлажнение и уход за кожей - часть стандартной процедуры
+
+        include ../common/footer.pug
+        include ../common/popap.pug

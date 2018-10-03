@@ -1,11 +1,15 @@
+.footercontent{
+    
+}
+
 .footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     position: fixed;
     z-index: 100000;
     bottom: 0;
     width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     &__left{
         display: flex;
     }

@@ -1,0 +1,57 @@
+extends ../template
+
+block varibles
+    - var title = "Buy"
+
+block content
+   
+    .content     
+        include ../common/header.pug
+        
+        section.buycontent
+            .wrapper
+                .buy
+                    .buy__title
+                        p ГДЕ КУПИТЬ джейлинг
+                    .buy__list
+                        .paragraph
+                            p Расходные материалы продаются только Партнерам (салонам и индивидуальным мастерам) прошедшим бесплатное обучение.
+                        .paragraph
+                            p Обучение проводится на базе косметологического кабинета обучаемого партнера. 
+                        .paragraph
+                            p Обучение бесплатно и занимает 5 часов включая теоретическую лекцию и практические занятия.
+                        .paragraph
+                            p Обучаемый должен предоставить 2х моделей для практических занятий.
+                        .paragraph
+                            p Обучаемый должен выкупить стартовый набор для JLing стоимостью 15 тыс. руб.
+                        .paragraph
+                            p Минимальный набор расходных материалов стоит 7500 руб.
+                        .paragraph
+                            p Скидки предоставляются по программе лояльности в мобильном приложении.
+                    .service__qrblock
+                        .left   
+                            img(src="./images/gr.png", alt="")
+                        .right
+                            span Скачай в App Store
+                            a(href="https://itunes.apple.com/us/app/uds-game/id954809132?mt=8)") https://itunes.apple.com/us/app/uds-game/id954809132?mt=8)
+                            span Google Play
+                            a(href="https://play.google.com/store/apps/details?id=com.setinbox.game&hl=ru) ") https://play.google.com/store/apps/details?id=com.setinbox.game&hl=ru) 
+                            p 
+                                | мобильное приложение UDS Game. Отсканируй или введи код twev5679 image.png Получи приветственные 
+                                span 
+                                    | 500 баллов
+                                | на счет
+                    .buy__link 
+                        a(href="#") Пройти процедуру эпиляции JLing можно у наших партнеров
+                    .buy__bottomtext
+                        .left
+                            span Запись на обучение:
+                            span Т: +7 495 230-10-33
+                            span E: hello@jling.ru
+                        .right
+                            span #давайбезболи
+                            span #эпиляция будущего
+                            span #джейлинг
+
+        include ../common/footer.pug     
+        include ../common/popap.pug

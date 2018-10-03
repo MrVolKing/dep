@@ -1,0 +1,70 @@
+extends ../template
+
+block varibles
+    - var title = "Partner"
+
+block content
+   
+    .content     
+        include ../common/header.pug
+
+        section.partnerscontent2
+            .wrapper
+                .partners   
+                    .partners__title    
+                        p ПАРТНЕРСТВО
+                    .partners__blockbutton
+                        .button2.button2_pad
+                            a(href="./partner.html")  
+                                span Предложение для салонов
+                        .button1.button1_pad
+                            a(href="./partner2.html")
+                                span Предложение для индивидуальных мастеров
+                    //- .partners__list    
+                    //-     .paragraph
+                    //-         p Обучение в Вашем салоне в удобное время
+                    //-     .paragraph
+                    //-         p Гибкая ценовая политика с накопительными скидками
+                    //-     .paragraph
+                    //-         p Рекламная продукция для привлечения клиентов на  услугу будущего
+                    //-     .paragraph
+                    //-         p Мобильное приложение для управления персоналом и взаимоотношениями с клиентами
+                    //-     .paragraph
+                    //-         p Бонусная система
+                    .partners__list
+                        .paragraph
+                            p Обучение на базе производителя
+                        .paragraph
+                            p Гибкая ценовая политика с накопительными
+                                br
+                                | скидками
+                        .paragraph
+                            p Рекламные материалы для продвижения в
+                                br
+                                | соцсетях
+                        .paragraph
+                            p Мобильное приложение
+                        .paragraph
+                            p Бонусная система
+                    .service__qrblock
+                        .left   
+                            img(src="./images/gr.png", alt="")
+                        .right
+                            span Скачай в App Store
+                            a(href="https://itunes.apple.com/us/app/uds-game/id954809132?mt=8)") https://itunes.apple.com/us/app/uds-game/id954809132?mt=8)
+                            span Google Play
+                            a(href="https://play.google.com/store/apps/details?id=com.setinbox.game&hl=ru) ") https://play.google.com/store/apps/details?id=com.setinbox.game&hl=ru) 
+                            p 
+                                | мобильное приложение UDS Game. Отсканируй или введи код twev5679 image.png Получи приветственные 
+                                span 
+                                    | 500 баллов
+                                | на счет
+                    .partners__link 
+                        a(href="#") Обучение
+
+
+
+
+
+        include ../common/footer.pug
+        include ../common/popap.pug
