@@ -56,3 +56,34 @@
         }
     }
 }
+
+@media all and (max-width: 1350px){
+    .footer{
+        width: 94vw;
+    }
+}
+
+@media all and (max-width: 840px){
+    .footer{
+        bottom: 70px;
+        display: flex;
+        justify-content: center;
+        &__arrow{
+            display: none;
+        }
+        &__right{
+            left: 50%;
+            bottom: -46px;
+            transform: translateX(-50%);
+            width: 140px;
+        }
+    }
+}
+
+@media all and (max-width: 630px){
+    .footer{
+        &__left{
+            flex-direction: column;
+        }
+    }
+}

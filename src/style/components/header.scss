@@ -59,3 +59,23 @@
         }
     }
 }
+
+@media all and (max-width: 1350px) {
+    .header{
+        &__center{
+            display: none;
+        }
+    }
+}
+
+@media all and (max-width: 630px) {
+    .header{
+        justify-content: flex-end;
+        &__right{
+            display: none;
+        }
+        &__logo{
+            margin-right: 16px;
+        }
+    }
+} 

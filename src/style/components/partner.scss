@@ -148,3 +148,54 @@
 .bg2{
     background-image: url(../images/partnersbg2.png) !important;
 }
+
+@media all and (max-width: 1350px){
+    .partners{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 700px){
+    .partners{
+        padding-bottom: 20px;
+        &__blockbutton{
+            flex-direction: column;
+        }
+    }
+}
+
+@media all and (max-width: 500px){
+    .partners{
+        padding-top: 25px;
+        &__title{
+            p{
+                font-size: 38px;
+            }
+        }
+        &__blockbutton{
+            align-items: center;
+            .button1, .button2{
+                width: 60vw;
+                height: 26vw;
+                padding: 0;
+                padding-top: 15px;
+                a{
+                    span{
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        &__list{
+            .paragraph{
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
