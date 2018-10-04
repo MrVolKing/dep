@@ -63,3 +63,19 @@
         popap.classList.add('popapvisibl');
         
     });
+
+
+
+    // burger
+
+    var burger = document.getElementById('burger');
+    var adaptmenu = document.getElementById('adaptmenu');
+    var close  = document.getElementById('close');
+
+    burger.addEventListener('click', function () {
+        adaptmenu.classList.add('adaptvisible');    
+    });
+
+    close.addEventListener('click', function () {
+        adaptmenu.classList.remove('adaptvisible');    
+    });

@@ -39,3 +39,21 @@
 .popapvisibl{
     display: block;
 }
+
+
+@media all and (max-width: 670px){
+    .popap{
+        width: 94vw;
+        height: 200px;
+        .form{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0;
+            padding-top: 10px;
+            input, button{
+                width: 80vw;
+            }
+        }
+    }
+}
