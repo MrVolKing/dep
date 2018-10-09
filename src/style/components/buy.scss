@@ -4,11 +4,16 @@
     // height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #f3efeb;
+    // padding-top: 90px;
+
+    height: 997px;
+    overflow: hidden;
 }
 
 .buy{
-    padding-top: 29px;
-    padding-bottom: 289px;
+    padding: 118px 0 0 0;
+    padding-bottom: 171px;
     // height: 1122px;
     // height: 57.71vw;
     &__title{

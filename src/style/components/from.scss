@@ -1,12 +1,18 @@
 .fromcontent{
     // height: 100vh;
     background-color: #f3efeb;
+    // padding-top: 90px;
+
+    height: 997px;
+    overflow: hidden;
 }
 
 .from{
     // height: 1122px;
     // height: 57.71vw;
-    padding-bottom: 228px;
+    padding: 118px 0 0 0;
+    padding-bottom: 110px;
+
     &__title{
         padding: 33px 0 57px 0;
         

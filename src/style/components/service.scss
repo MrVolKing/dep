@@ -6,11 +6,16 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-position-y: -82px;
+    background-color: #f3efeb;
+    // padding-top: 90px;
+
+    height: 997px;
+    overflow: hidden;
 }
 
 .service{
-    padding-top: 33px;
-    padding-bottom:115px;
+    padding-top: 118px;
+    // padding-bottom:15px;
     // height: 1122px;
     // height: 57.71vw;
     &__title{
