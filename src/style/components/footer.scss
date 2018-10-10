@@ -57,9 +57,20 @@
     }
 }
 
+.vis{
+    display: none;
+}
+
 @media all and (max-width: 1350px){
     .footer{
         width: 94vw;
+    }
+    
+    .footer__blocknumbers{
+        display: none;
+    }
+    .vis{
+        display: flex !important;
     }
 }
 
