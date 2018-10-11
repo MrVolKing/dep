@@ -11,7 +11,7 @@ html
         meta(content="ie-edge" http-equiv="x-ua-compatible")
 
         link(rel="stylesheet", href="./dist/css/swiper.css?3")
-        link(rel="stylesheet", href="./styles/app.min.css?3")
+        link(rel="stylesheet", href="./styles/app.min.css")
 
     body
         block content
@@ -30,9 +30,38 @@ html
                     new fullpage('#fullpage', {
                         licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
                         scrollOverflow: true,
-                        anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
+                        //- anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
+                        //- navigationTooltips: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
                     });
                 };
+
+                $('#footer__arrow').on('click', () => {
+                    fullpage_api.moveSectionDown();
+                });
+                $('#firstPage').on('click', () => {
+                    fullpage_api.moveTo(1);
+                });
+                $('#secondPage').on('click', () => {
+                    fullpage_api.moveTo(2);
+                });
+                $('#thirdPage').on('click', () => {
+                    fullpage_api.moveTo(3);
+                });
+                $('#fourthPage').on('click', () => {
+                    fullpage_api.moveTo(4);
+                });
+                $('#fifthPage').on('click', () => {
+                    fullpage_api.moveTo(5);
+                });
+                $('#sixthPage').on('click', () => {
+                    fullpage_api.moveTo(6);
+                });
+                $('#seventhPage').on('click', () => {
+                    fullpage_api.moveTo(7);
+                });
+
+
+
             });
 
                                         // , 'eighth'

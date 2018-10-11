@@ -21,8 +21,8 @@
 
 .partners{
     padding-top: 118px;
-    
-    padding-bottom: 200px;
+
+    // padding-bottom: 200px;
     // height: 1122px;
     // height: 57.71vw;
     &__title  {
@@ -61,9 +61,9 @@
                     letter-spacing: 0.05px;
                 }
             }
-            
+
         }
-        .button2{  
+        .button2{
             width: 334px;
             height: 121px;
             background-color: $white;
@@ -83,10 +83,10 @@
                     line-height: 33.33px;
                     text-transform: uppercase;
                     letter-spacing: 0.05px;
-                }   
+                }
 
-            }   
-        }   
+            }
+        }
     }
     &__list{
         margin-bottom: 45px;
