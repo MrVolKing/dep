@@ -96,3 +96,27 @@
         }
     }
 }
+
+.hg{
+    width: 169px;
+    height: 51px;
+    border-radius: 5px;
+    border: none;
+    background-color: $white;
+    border-left: 2px solid #00deff;
+    border-right: 2px solid #8c4bff;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100% ;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    background-image: linear-gradient(to right, #00deff 0%, #8c4bff 100%), linear-gradient(to right, #00deff 0%, #8c4bff 100%);
+}
+
+.hg2{
+    width: 230px;
+    height: 69px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    background-image: linear-gradient(to right, #00deff 0%, #8c4bff 100%);
+}
